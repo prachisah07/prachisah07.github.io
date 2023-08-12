@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flower Website Project</title>
+
+    <!-- font awesome cdn link 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"> -->
+
+    <!-- css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+    <!-- header section starts  -->
+
+    <header>
+
+        <!-- <input type="checkbox" name="" id="toggler">
+        <label for="toggler" class="fas fa-bars"></label> -->
+
+        <p class="logo">flower<span>.</span></p>
+
+        <nav class="navbar">
+            <a href="#home">home</a>
+            <a href="#about">about</a>
+            <a href="#products">products</a>
+
+            <a href="#contact">contact</a>
+        </nav>
+
+
+    </header>
+
+    <!-- header section ends -->
+
+    <!-- home section starts  -->
+
+    <section class="home" id="home">
+
+        <div class="content">
+            <h3>fresh flowers</h3>
+            <span> natural & beautiful flowers </span>
+            <p>A flower, sometimes known as a bloom or blossom, is the reproductive structure found in flowering plants.
+            </p>
+            <br>
+            <p>
+                In addition to facilitating the reproduction of flowering plants, flowers have long been admired and
+                used by humans to bring beauty to the environment, and also as objects of romance, ritual, religion,
+                medicine and as a source of food.</p>
+            <br>
+            <div class="list">
+                Advantages of keeping flowers at home:</div>
+            <ul class="list">
+                <li>Increase creativity, innovation, and productivity.</li>
+                <li>Improve mood and memory.</li>
+                <li>Improve air quality.</li>
+            </ul>
+
+
+
+        </div>
+
+    </section>
+
+    <!-- home section ends -->
+
+    <!-- about section starts  -->
+
+    <section class="about" id="about">
+
+        <h1 class="heading"> <span> about </span> us </h1>
+
+        <div class="row">
+
+            <div id="rimage">
+                <button class="btn" onclick="setInterval(getRandomImage, 1000)"> Click on me to Explore the Floral World
+                </button>
+
+            </div>
+
+
+            <div class="content">
+                <h3>why choose us?</h3>
+                <p>The price of all kinds of flowers and designs are more affordable than you think. Instead of wasting
+                    your precious time and money at the local stores, people need to make use of the benefits associated
+                    with the online platform. </p>
+                <p>People can find incredible amounts of flower varieties under a single
+                    platform without leaving your comfort zone in any case. Make a thorough research on the internet for
+                    finding the best and attractive flower bouquets for sending your special wishes and greetings.</p>
+
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- about section ends -->
+
+
+    <!-- prodcuts section starts  -->
+
+    <section class="products" id="products">
+
+        <h1 class="heading"> latest <span>products</span> </h1>
+
+        <div class="box-container">
+
+            <div class="box">
+
+                <div class="image">
+                    <img src="images/img-1.jpg" alt="">
+                    <div class="icons">
+
+                        <a href="#" class="cart-btn">add to cart</a>
+
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>Garden tulip</h3>
+                    <div class="price"> Rs. 399 <span></span> </div>
+                </div>
+            </div>
+
+            <div class="box">
+
+                <div class="image">
+                    <img src="images/img-2.jpg" alt="">
+                    <div class="icons">
+
+                        <a href="#" class="cart-btn">add to cart</a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>Parrot tulip</h3>
+                    <div class="price"> Rs. 299 </div>
+                </div>
+            </div>
+
+            <div class="box">
+
+                <div class="image">
+                    <img src="images/img-3.jpg" alt="">
+                    <div class="icons">
+
+                        <a href="#" class="cart-btn">add to cart</a>
+
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>Rose</h3>
+                    <div class="price"> Rs. 449 </div>
+                </div>
+            </div>
+
+            <div class="box">
+
+                <div class="image">
+                    <img src="images/img-4.jpg" alt="">
+                    <div class="icons">
+
+                        <a href="#" class="cart-btn">add to cart</a>
+
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>lily</h3>
+                    <div class="price"> Rs. 599 </div>
+                </div>
+            </div>
+
+            <div class="box">
+
+                <div class="image">
+                    <img src="images/img-5.jpg" alt="">
+                    <div class="icons">
+
+                        <a href="#" class="cart-btn">add to cart</a>
+
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>white tulip</h3>
+                    <div class="price"> Rs. 349</div>
+                </div>
+            </div>
+
+            <div class="box">
+
+                <div class="image">
+                    <img src="images/img-6.jpg" alt="">
+                    <div class="icons">
+                        <a href="#" class="cart-btn">add to cart</a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>Cardinal</h3>
+                    <div class="price"> Rs. 449</div>
+                </div>
+            </div>
+
+
+
+    </section>
+
+    <!-- prodcuts section ends -->
+
+
+    <!-- contact section starts  -->
+
+    <section class="contact" id="contact">
+
+        <h1 class="heading"> <span> contact </span> us </h1>
+
+        <div class="row">
+
+            <form action="">
+                <input type="text" placeholder="name" class="box">
+                <input type="email" placeholder="email" class="box">
+                <input type="number" placeholder="number" class="box">
+                <textarea name="" class="box" placeholder="message" id="" cols="30" rows="10"></textarea>
+                <input type="submit" value="send message" class="btn">
+            </form>
+
+            <div class="image">
+                <img src="images/contact-img.svg" alt="">
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- contact section ends -->
+
+    <!-- footer section starts  -->
+
+    <section class="footer">
+
+        <div class="box-container">
+
+
+
+            <div class="box">
+                <h3>extra links</h3>
+                <a
+                    href="https://media.istockphoto.com/id/470649314/photo/nursery-filled-with-various-colorful-flowers.jpg?s=612x612&w=0&k=20&c=I-dS3DihpAYdtT-0jkm9HuHJMMBVhh3xSfCFRqIK8UQ=">Our
+                    Nursery</a>
+                <a
+                    href="https://weddingplannerskerala.com/wp-content/uploads/photo-gallery/imported_from_media_libray/25k-11.jpg?bwg=1640434053">Events
+                    Decoration</a>
+                <br>
+                <h1 style="color: rgb(209, 48, 139);">Founders</h1>
+                <div>
+                    <!--Add image-->
+
+                    <a href="https://www.instagram.com/prachiisah/"> <img src="founders/Image6.jpeg" alt="flower"
+                            width="100">
+                        <h5 style="color: rgb(0, 0, 0);">Shobhit & Prachi</h5>
+                    </a>
+                </div>
+            </div>
+
+            <div class="box">
+                <h3>locations where we deliver</h3>
+                <a href="#">delhi</a>
+                <a href="#">mumbai</a>
+                <a href="#">goa</a>
+                <a href="#">chennai</a>
+            </div>
+
+            <div class="box">
+                <h3>contact info</h3>
+                <a>+91 1603202219</a>
+                <a href="#">shobhitprachi@gmail.com</a>
+                <a href="#">Delhi, india - 110058</a>
+
+            </div>
+
+        </div>
+
+
+        <div class="credit"> created by <span> Prachi & Shobhit </span> | all rights reserved </div>
+
+    </section>
+
+    <!-- footer section ends -->
+
+    <script>
+        function getRandomImage() {
+            var randomImage = new Array();
+
+            randomImage[0] = "https://post.healthline.com/wp-content/uploads/2021/11/lotus-flower-in-pond-732x549-thumbnail-732x549.jpg";
+            randomImage[1] = "https://images.lifestyleasia.com/wp-content/uploads/sites/7/2022/05/23205040/plumeria.jpg";
+            randomImage[2] = "https://www.inquirer.com/resizer/WpQaXb45yjBGXKSMzLsiI7IJOpA=/760x507/smart/filters:format(webp)/cloudfront-us-east-1.images.arcpublishing.com/pmn/ZW56E6W45FCVLOFHXUJY3FXMWM.jpg";
+            randomImage[3] = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsLUtkcxgJV8MoseWBJrpMLjRXqZd1O_3hdw&usqp=CAU";
+            randomImage[4] = "https://www.conserve-energy-future.com/wp-content/uploads/2020/07/Sunflower.jpg";
+            randomImage[5] = "https://www.allaboutgardening.com/wp-content/uploads/2021/08/Tropical-Fiesta-Hibiscus-1200x667.jpg";
+
+            var number = Math.floor(Math.random() * randomImage.length);
+            return document.getElementById("rimage").innerHTML = '<img width="500px" height="350px" src="' + randomImage[number] + '" />';
+        } 
+    </script>
+</body>
+
+</html>
